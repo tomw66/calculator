@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    }
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: solid;
+    border-radius: 10%;
+    width: 300px;
+    padding: 15px;
+}
+
+#display { 
+    grid-column: span 4;
+    border: solid;
+    height: 100px;
+    margin: 5px;
+    font-size: 20px;
+    font-family:'Roboto',sans-serif;
+}
+
+.button {
+    font-size: 25px;
+    border: none;
+    border-radius: 2em;
+    padding: 15px 20px;
+    background-color: #434d81;
+    box-shadow: 5px 5px #212228;
+    color: aliceblue;
+    font-weight: 300;
+    font-family:'Roboto',sans-serif;
+    margin: 5px;
+}
