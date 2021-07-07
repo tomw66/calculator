@@ -78,5 +78,3 @@ buttons.forEach((button) => {
         }
         });
 });
-//test comment24
-//test comment32
